@@ -14,7 +14,9 @@ A **Spotify-inspired music player** built with **HTML, CSS, and JS**. Play, paus
 
 ---
 
-## Preview
+## Preview!
+<img width="2591" height="1659" alt="image" src="https://github.com/user-attachments/assets/574960ec-09cd-4844-b523-99f3f9ffb321" />
+
 
 
 ## Live Demo Link
