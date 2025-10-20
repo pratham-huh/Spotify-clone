@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="spotify-512.png" alt="Spotify">Spotify</li>
+      <li id="homeBtn">Home</li>
+      <li id="songsBtn">Listen Songs</li>
+      <li id="aboutBtn">About</li>
+    </ul>
+  </nav>
+
+
+  <div id="homePage" class="page active">
+    <h1>Welcome to Spotify</h1>
+    <p>Your favourite music is just one click away.</p><span></span></span>
+    <button id="goToSongs">🎵 Listen Songs</button>
+  </div>
+
+  
+  <div id="songsPage" class="page">
+    <div class="container">
+      <div class="songList">
+        <h1>Best of 2025</h1>   
+        <div class="songItemContainer">
+          <div class="songItem">
+              <img alt="1">
+              <span class="songName">Sundari</span>
+              <span class="songlistplay"><span class="timestamp">03:17 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+              <img alt="1">
+              <span class="songName">Ku Lo Sa</span>
+              <span class="songlistplay"><span class="timestamp">02:32 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+              <img alt="1">
+              <span class="songName">Sithira Puthiri</span>
+              <span class="songlistplay"><span class="timestamp">03:47 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+              <img alt="1">
+              <span class="songName">Katchi Sera</span>
+              <span class="songlistplay"><span class="timestamp">03:14 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+          </div>
+          <div class="songItem">
+              <img alt="1">
+              <span class="songName">For A Reason</span>
+              <span class="songlistplay"><span class="timestamp">03:00 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+      <div class="icons">
+        <i class="fa-3x fa-solid fa-backward" id="previous"></i>
+        <i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+        <i class="fa-3x fa-solid fa-forward" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="5uwq.gif" width="42px" alt="" id="gif"><span id="masterSongName">Sundari - Sanju Rathod</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="aboutPage" class="page">
+    <h1>About This Project</h1>
+    <p>Created by <strong>Prathamesh</strong> 🕷️</p>
+    <p>This mini Spotify clone was built using HTML, CSS, and JavaScript.</p>
+  </div>
+
+  <script src="https://kit.fontawesome.com/3e018dbc39.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
