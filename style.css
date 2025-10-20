@@ -12,13 +12,40 @@ body{
 nav{
   font-family: 'Ubuntu', sans-serif;
 }
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     list-style-type: none;
     height: 65px;
     background-color: white;
+
+    overflow-x: auto; 
+    white-space: nowrap; 
+    -webkit-overflow-scrolling: touch; 
 }
+
+
+nav ul::-webkit-scrollbar {
+    display: none;
+}
+
+
+.brand {
+    flex: 0 0 auto; 
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-right: 15px;
+}
+
+
+nav ul li {
+    flex: 0 0 auto; 
+    padding: 0 12px;
+    cursor: pointer;
+}
+
 
 .brand img{
     width: 44px;
@@ -121,11 +148,7 @@ nav ul li{
 @media (max-width: 768px) {
 
  
-  nav ul {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
-  }
+
 
   .brand {
     font-size: 1rem;
