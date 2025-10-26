@@ -20,4 +20,4 @@ A **Spotify-inspired music player** built with **HTML, CSS, and JS**. Play, paus
 
 
 ## Live Demo Link
- 👉🏻(https://pratham-huh.github.io/Spotify-clone/)
+ 👉(https://spotify-clone-pratham-huh.netlify.app/)
